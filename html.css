@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="introduction.css">
+    <title>second</title>
+  <style>
+    footer{
+        background-color: aquamarine;
+    }
+  </style>
+      
+</head>
+<!-- css having mainly three types exponanyials
+ ---inline---ineternal---external-->
+
+    <body class="body">
+        <image src="hanuman.jpg" height="100px" class="image"></image>
+        <p>these is the main property</p> <p>these is the main property</p> <p>these is the main property</p>
+        <image src="hanuman.jpg" height="100px" class="image1"></image>
+        <p>these is the main property
+<br>
+            these is the main property<br>
+            
+            these is the main property
+            
+            </p>
+      <hr>
+      </body>
+    <header id="class">
+        <h1 class="hee">hello welcome to the css introduction</h1>
+<p >these is the header property</p>
+<p>these is the header property</p>
+<hr>
+        <a href="  ">abouut</a><hr>
+
+    </header >
+    <main class="hii">
+       <p>these is the main property</p> <p>these is the main property</p> <p>these is the main property</p>
+        <image src=" ">these<bold> area is belongings to main </bold>content inthe action_page</image>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>these is the footer property</p>
+        <p id="box">these is the footer property</p>
+        <h1 style="background-color: rgb(10, 34, 173);">hear welcome to footer</h1>
+    </footer>
+
+    <br>
+    <br>
+    <hr>
+    <label class="box">boox</label>
+    <br>
+    <hr>
+    <p id="p">
+        these is the main property
+
+these is the main property
+
+these is the main property
+hese is the main property
+
+these is the main property
+
+these is the main property
+
+these area is belongings to main content inthe action_page
+    </p>
+
+
+
+</html>

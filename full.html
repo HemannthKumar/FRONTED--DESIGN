@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="Picture1.png">
+    
+<title>tabes</title>
+</head>
+<body class="he">
+    <table border="3" style="background-color: aqua;">
+<tr align="centre">
+<th widhth="100" style=color:rgb(100, 200, 150);"> sun</th>
+<th widhth="10" >mond</th>
+</tr>
+<td width="100" align="centre">nady </td>
+<td width="100">nady </td>
+
+</table>
+<img src="picture1.png"  alt="the is " width="200">
+<audio controls autoplay muted loop>
+    <source src="02_-_Hey_Rangule.mp3" alt="the">
+</audio>
+
+<!--<span> inline  container foe styling-->
+    <!--<div> inline  container foe styling-->
+     
+            <h1><span style="background-color:red;">he these is hemanth from nellore</span></h1>
+        
+        <!--<div> group  container foe styling-->
+     
+            <p><div style="background-color: rgb(124, 79, 21);" > these is hemanth from nellore</div></p>
+       <!-- buttons-->
+
+            
+            
+        <button  onclick="doSomething()" style="        border-radius:10px;background-color:  rgb(38, 199, 199); height: 100px;">hee</button> 
+    <p id="he">hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("he").outerHTML ="GOOD";
+        }
+    </script>
+    <!-- FORMS IN HTML-->
+     <form action="action_page.php" method="post">
+        <div>
+ <label for="fname">firstname:</label>
+        <input type="text" id="fname" name="fname" placeholder="name " required>
+    </div>
+    <br>
+    <div>
+       <label  for="fname">lastname:</label>
+        <input type="text"   id="fname"name="fname" placeholder="fullname" required>
+    </div>
+    <br>
+    <div>
+        <input type="submit" placeholder="submit" required style="background-color: red; border-radius: 10px;">
+    </div>
+    <div>
+        <label >wte your number :</label>
+        <input type="number"   placeholder="write your mobile no"  name="pass"   maxlength="2" required>
+        <input type="reset">
+    </div>
+    <div>
+        <label>these is email
+        </label>
+        <input type="date" placeholder="enetr" required>
+
+    </div>
+    <div>
+        <label>these is email
+        </label>
+        <input type="checkbox" placeholder="enetr" required>  
+    </div>
+    <div>
+        <label for="radio" >radio</label>
+<label for="mr" >mr.</label>
+        <input type="radio" id="radio" placeholder="mr" name="title">
+        <label for="radio" >radio</label>
+<label for="mr" >mr.</label>
+        <input type="radio" id="radio" placeholder="mr" name="title">
+        <label for="radio" >radio</label>
+<label for="mr" >mr.</label>
+        <input type="radio" id="radio" placeholder="mr" name="title" >
+    </div>
+    <div>
+<label for="number">number</label>
+<input type="number" id="number"  minlength="6",maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+<label for="number">number</label>
+<input type="tel" id="number"  minlength="6",maxlength="10" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+<label  >pay
+</label>
+<select id="pay">
+    <option>visa</option>
+    <option>visa</option>
+</select>
+<label for="comment">syubbbb</label>
+<textarea id="comment" rows="10px" ></textarea>
+    </div>
+     </form>
+    </body>
+</html>
